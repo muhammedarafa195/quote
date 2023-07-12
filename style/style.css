@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: min(100%,1000);
+    margin: auto;
+    height: 100dvh;
+    padding: 1px;
+    text-align: center;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: clamp(2rem, 6vw ,5rem);
+    margin-block: 30px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: clamp(2rem, 5vw, 2rem);
+    padding: 5px
+}
+button{
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    margin-block: 30px;
+    margin-inline: auto;
+    font-size: 1.5rem;
+    background-color: blue;
+}
+button:hover{
+background-color: green;
+cursor: pointer;
+}
