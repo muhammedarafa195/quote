@@ -3,7 +3,7 @@ let quote = document.getElementById("quote");
 function setQuote(){
     let ex = true; 
     while(ex){
-        let random = Math.ceil(Math.random()*3);
+        let random = Math.ceil(Math.random()*4);
         if(arrayQuote[random] != quote.innerText){
             ex = false;
             quote.innerText = arrayQuote[random];
