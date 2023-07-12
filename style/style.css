@@ -34,3 +34,7 @@ button:hover{
 background-color: green;
 cursor: pointer;
 }
+#quote{
+    width: min(100%,700px);
+    margin: auto;
+}
